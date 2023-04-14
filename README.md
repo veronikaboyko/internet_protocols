@@ -3,9 +3,9 @@
 
 ## Входные данные
 
-*help:* python tracer.py -h
-*input:* python tracer.py <target>, где <target> - IP-адрес или доменное имя
-*output:* таблица вида **№| IP | AS**, где № - номер перехода, IP - IP адрес, AS - номер автономной системы
+**help:** python tracer.py -h\n
+**input:** python tracer.py <target>, где <target> - IP-адрес или доменное имя\n
+**output:** таблица вида *№| IP | AS*, где № - номер перехода, IP - IP адрес, AS - номер автономной системы
 
 ## Пример использования
 
