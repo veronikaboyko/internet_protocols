@@ -5,7 +5,7 @@
 
 **help:** python tracer.py -h
 
-**input:** python tracer.py <target>, где <target> - IP-адрес или доменное имя
+**input:** python tracer.py target, где target - IP-адрес или доменное имя
   
 **output:** таблица вида *№| IP | AS*, где № - номер перехода, IP - IP адрес, AS - номер автономной системы
 
