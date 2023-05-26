@@ -22,7 +22,9 @@
 
 ### Обработка некорректных входных данных
 
-<img width="564" alt="Снимок экрана 2023-05-27 в 04 01 24" src="https://github.com/veronikaboyko/tracer/assets/91218615/98dec1f6-a9b2-408d-b254-a0832210f79a">
+<img width="567" alt="Снимок экрана 2023-05-27 в 04 18 53" src="https://github.com/veronikaboyko/tracer/assets/91218615/3ed74b38-590e-4862-805d-362bd92edc89">
+
+<img width="567" alt="Снимок экрана 2023-05-27 в 04 19 21" src="https://github.com/veronikaboyko/tracer/assets/91218615/55e53918-62ec-4bef-8a61-580320c4208c">
 
 <img width="569" alt="Снимок экрана 2023-05-27 в 04 06 57" src="https://github.com/veronikaboyko/tracer/assets/91218615/7a41c98b-ea71-4afb-a938-3c61e1eeb3b4">
 
