@@ -12,3 +12,20 @@
 
 ## Пример использования
 
+### Успешный запуск
+
+<img width="568" alt="Снимок экрана 2023-05-27 в 03 38 16" src="https://github.com/veronikaboyko/tracer/assets/91218615/8873e586-fe3b-4234-bbdb-4e8b5cddd7a6">
+
+<img width="565" alt="Снимок экрана 2023-05-27 в 04 00 31" src="https://github.com/veronikaboyko/tracer/assets/91218615/6e9db369-db2d-43ff-b388-acbed809717c">
+
+<img width="567" alt="Снимок экрана 2023-05-27 в 04 10 11" src="https://github.com/veronikaboyko/tracer/assets/91218615/30f58e5e-c14d-4a2d-b96e-e9c5a53cf753">
+
+### Обработка некорректных входных данных
+
+<img width="564" alt="Снимок экрана 2023-05-27 в 04 01 24" src="https://github.com/veronikaboyko/tracer/assets/91218615/98dec1f6-a9b2-408d-b254-a0832210f79a">
+
+<img width="569" alt="Снимок экрана 2023-05-27 в 04 06 57" src="https://github.com/veronikaboyko/tracer/assets/91218615/7a41c98b-ea71-4afb-a938-3c61e1eeb3b4">
+
+### help
+
+<img width="566" alt="Снимок экрана 2023-05-27 в 04 08 53" src="https://github.com/veronikaboyko/tracer/assets/91218615/91ec29c7-7aca-418e-9b91-2d5b4a720c86">
