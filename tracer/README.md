@@ -7,10 +7,10 @@
 
 **input:** python tracer.py target, где target - IP-адрес или доменное имя
   
-**output:** таблица вида *№| IP | AS*, где № - номер перехода, IP - IP адрес, AS - номер автономной системы
+**output:** таблица вида *№ | IP | AS | Country | Provider*, где № - номер перехода, IP - IP адрес, AS - номер автономной системы, Country - страна, Provider - провайдер для каждого IP-адреса, прослеживаемого при трассировке.
 
 ## Пример использования
 
 <img width="568" alt="Снимок экрана 2023-04-14 в 18 08 32" src="https://user-images.githubusercontent.com/91218615/232052640-e7707e0f-820b-4528-acff-53d8f5263eb1.png">
-<img width="568" alt="Снимок экрана 2023-04-14 в 18 10 17" src="https://user-images.githubusercontent.com/91218615/232052839-310b6cd4-86f1-482a-afbb-ff356fd98049.png">
+
 <img width="565" alt="Снимок экрана 2023-04-14 в 18 21 40" src="https://user-images.githubusercontent.com/91218615/232055325-1bcd1a60-8f11-4035-87d7-486025a0e5df.png">

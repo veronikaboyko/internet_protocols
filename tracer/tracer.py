@@ -3,22 +3,41 @@ import re
 import sys
 
 
+def get_info(ip):
+    try:
+        whois_output = subprocess.getoutput('whois {}'.format(ip))
+
+        asn_regex = r'AS[0-9]+'
+        asn_match = re.search(asn_regex, whois_output)
+        asn = asn_match.group(0) if asn_match else '-'
+
+        country_regex = r'country:(.*)'
+        country_match = re.search(country_regex, whois_output, re.IGNORECASE)
+        country = country_match.group(1).strip() if country_match else '-'
+
+        isp_regex = r'org-name:(.*)'
+        isp_match = re.search(isp_regex, whois_output, re.IGNORECASE)
+        isp = isp_match.group(1).strip() if isp_match else '-'
+
+        return asn, country, isp
+
+    except Exception:
+        pass
+
+    return '-', '-'
+
+
 def traceroute(target):
     output = subprocess.getoutput('traceroute {}'.format(target))
     ip_regex = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
     ips = re.findall(ip_regex, output)
-    print('№\tIP Address\tASN')
+    print('№\tIP Address\t\tASN\t\tCountry\t\tProvider')
     for i, ip in enumerate(ips):
         try:
-            whois_output = subprocess.getoutput('whois {}'.format(ip))
-
-            asn_regex = r'AS[0-9]+'
-            asn_match = re.search(asn_regex, whois_output)
-            asn = asn_match.group(0) if asn_match else '-'
-            print(f'{i+1}\t{ip}\t{asn}')
-
+            asn, country, isp = get_info(ip)
+            print(f'{i + 1}\t{ip}\t\t{asn}\t\t{country}\t\t{isp}')
         except Exception as e:
-            print(f'{i+1}\t{ip}\terror')
+            print(f'{i + 1}\t{ip}\t\t-\t\t-\t\t-')
 
 
 def read_input():
