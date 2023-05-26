@@ -13,4 +13,6 @@
 
 <img width="568" alt="Снимок экрана 2023-04-14 в 18 08 32" src="https://user-images.githubusercontent.com/91218615/232052640-e7707e0f-820b-4528-acff-53d8f5263eb1.png">
 
+<img width="565" alt="Снимок экрана 2023-05-27 в 02 47 41" src="https://github.com/veronikaboyko/tracer/assets/91218615/91772ab6-a641-4138-9978-7eb6bdb15d1a">
+
 <img width="565" alt="Снимок экрана 2023-04-14 в 18 21 40" src="https://user-images.githubusercontent.com/91218615/232055325-1bcd1a60-8f11-4035-87d7-486025a0e5df.png">
