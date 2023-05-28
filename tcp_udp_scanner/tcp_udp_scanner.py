@@ -49,11 +49,11 @@ def main():
     end_port = args.end_port
 
     if start_port > end_port:
-        print('Error: Start port must be less than or equal to end port.')
+        print('\nError: Start port must be less than or equal to end port.\n')
         return
 
     if start_port < 1 or start_port > 65535 or end_port < 1 or end_port > 65535:
-        print('Error: Ports must be between 1 and 65535.')
+        print('\nError: Ports must be between 1 and 65535.\n')
         return
 
     open_tcp_ports, open_udp_ports = scan_ports(target_host, start_port, end_port)
