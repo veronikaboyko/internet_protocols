@@ -3,10 +3,19 @@ import json
 import datetime
 import dns.resolver
 
+
 AUTHORITY_SERVER = '213.180.193.1'  # ns1.yandex.ru
 CACHE_FILE = 'dns_cache.json'
 HOST = 'localhost'
 PORT = 1234
+
+
+def check_internet_connection():
+    try:
+        socket.create_connection((AUTHORITY_SERVER, 80))
+        return True
+    except OSError:
+        return False
 
 
 def load_cache():
@@ -26,6 +35,11 @@ def get_dns_record(domain, record_type):
     cache = load_cache()
 
     if f'({domain}, {record_type})' in cache:
+
+        if not check_internet_connection():
+            print('Loaded from cache')
+            return cache[f'({domain}, {record_type})']
+
         timestamp_str = cache[f'({domain}, {record_type})']['time']
         timestamp = datetime.datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S.%f')
         time_diff = datetime.datetime.now() - timestamp
@@ -66,6 +80,9 @@ def resolve_dns_query(domain, record_type):
 
     if data is not None:
         return data
+
+    if not check_internet_connection():
+        return {'info': 'No internet connection'}
 
     response = request_data(domain, record_type)
 
