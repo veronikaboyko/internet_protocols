@@ -12,7 +12,7 @@ PORT = 1234
 
 def check_internet_connection():
     try:
-        socket.create_connection((AUTHORITY_SERVER, 80))
+        socket.create_connection((AUTHORITY_SERVER, 53))
         return True
     except OSError:
         return False
