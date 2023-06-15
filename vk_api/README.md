@@ -20,6 +20,8 @@
 * albums
 
 ## Пример использования
+<img width="567" alt="Снимок экрана 2023-06-15 в 16 31 19" src="https://github.com/veronikaboyko/internet_protocols/assets/91218615/71903f19-3728-4aa3-a78c-8911b9dd3601">
 
+<img width="560" alt="Снимок экрана 2023-06-15 в 16 31 56" src="https://github.com/veronikaboyko/internet_protocols/assets/91218615/8705b91e-d67e-49fb-85c3-8472d746ce88">
 
-
+<img width="569" alt="Снимок экрана 2023-06-15 в 16 32 22" src="https://github.com/veronikaboyko/internet_protocols/assets/91218615/ebdb9b36-3ec9-4785-b990-afe5df7d9f72">
